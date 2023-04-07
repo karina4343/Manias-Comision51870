@@ -47,8 +47,11 @@ nav{
     }}
   }
   nav {
-    #toggle ,label{
-    display: none;
+    #toggle {
+       display: none;
+    }
+    label{
+      display: none;
   } 
 }
 .Novedades-titulo{
@@ -122,7 +125,7 @@ nav{
         padding: 0.5rem 0;
     }}
     nav {
-        .label{
+        label{
         display: inline-flex;
         color: white;
         cursor: pointer;

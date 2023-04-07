@@ -42,7 +42,10 @@ nav {
     color: black;
     font-weight: 700; }
 
-nav #toggle, nav label {
+nav #toggle {
+  display: none; }
+
+nav label {
   display: none; }
 
 .Novedades-titulo {
@@ -102,7 +105,7 @@ nav #toggle, nav label {
     align-items: center;
     justify-content: center;
     padding: 0.5rem 0; }
-  nav .label {
+  nav label {
     display: inline-flex;
     color: white;
     cursor: pointer; }
