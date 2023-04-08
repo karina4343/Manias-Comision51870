@@ -1,0 +1,38 @@
+main{
+    .Novedades-titulo{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      h2{
+      font-size: 30px;
+      text-decoration: underline;
+      text-decoration-style: double;}
+    }
+    .container-inicio{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 40px;
+      padding: 20px;
+      margin-top: 70px;}
+    .card-title{
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-style: double;}
+    .card-text{
+      text-align: center;}
+    .card-body{
+      background-color: #f7edcf;}
+    .btn{
+      background-color: black;}
+    .botton {
+      a{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(240, 217, 182);
+      border: black;
+      color: rgb(0, 0, 0);}
+    }
+  }

@@ -1,0 +1,33 @@
+main{
+    .tabla-de-talles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+  }
+  .tabla{
+    border: #000000 solid 2px;
+    font-weight: 700
+  }
+  .texto-talles{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    h3{
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-weight: 700}
+  }
+  .guia-de-talles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h2 {
+        color: #000000;
+        text-decoration: underline;
+        text-decoration-style: double;}
+  }
+  }
