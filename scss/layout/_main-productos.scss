@@ -31,7 +31,7 @@ main{
   }
   .container .row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
     margin: 10px;
     max-width: 100%;
     .card{
@@ -43,20 +43,24 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;}
+    align-items: center;
+    flex-wrap: wrap;}
 }
 .higiene-2 {
-    h3{
+  h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center; }
+    align-items: center; 
+    flex-wrap: wrap;}
 }
   .accesorios-3 {
     h3{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;}
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
 }
 }
