@@ -120,28 +120,33 @@ main .container .row {
   display: flex;
   flex-wrap: nowrap;
   margin: 10px;
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 20px; }
   main .container .row .card {
     max-width: 100%;
-    height: 100%; }
+    height: 100%;
+    border-radius: 20px; }
 
 main .productos-1 h3 {
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 main .higiene-2 h3 {
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 main .accesorios-3 h3 {
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 main .tabla-de-talles {
   display: flex;
@@ -215,7 +220,7 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-image: url("../imagenes/1.jpg");
+  background-image: url("../imagenes/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -245,15 +250,25 @@ body {
       font-size: 20px; }
   nav label {
     display: inline-flex;
-    color: white;
+    color: black;
     cursor: pointer; }
   nav #toggle:checked ~ .menu {
     height: 100%; } }
 
-@media (min-width: 320px) and (max-width: 568px) {
-  .tarjetas-productos {
+/*@media (min-width: 320px) and (max-width:568px ) {
+    nav{
+      background-color: sienna;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    .tarjetas-productos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center; } }
+    align-content: center;}
+    
+  }*/

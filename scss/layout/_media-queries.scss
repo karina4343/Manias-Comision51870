@@ -31,18 +31,28 @@
        }  
        nav label{
         display:inline-flex;
-        color: white;
+        color: rgb(0, 0, 0);
         cursor: pointer;}
 
        nav #toggle:checked ~ .menu{
           height: 100%;}
+
      }
      
-  @media (min-width: 320px) and (max-width:568px ) {
+  /*@media (min-width: 320px) and (max-width:568px ) {
+    nav{
+      background-color: sienna;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
     .tarjetas-productos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;}
-  }
+    
+  }*/
