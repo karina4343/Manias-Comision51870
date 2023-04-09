@@ -257,6 +257,11 @@ body {
     justify-content: center; }
     .Novedades-titulo h2 {
       font-size: 20px; }
+  .categoria-h2 {
+    display: flex;
+    justify-content: center; }
+    .categoria-h2 h2 {
+      font-size: 20px; }
   nav label {
     display: inline-flex;
     color: black;
