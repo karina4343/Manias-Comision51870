@@ -6,6 +6,7 @@ main{
     margin-left: 20px;
     margin-right: 20px;
     h1{
+      font-size: 30px;
       text-decoration: underline;
       text-decoration-style: double;
       text-align: center;
@@ -22,5 +23,37 @@ main{
         margin-top: 40px;
         border:  #000000 2px solid;
         padding: 20px;
-        color: black;}}
+        color: black;}
+      }
+      .texto-gif{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    h1{
+      font-size: 30px;
+      text-decoration: underline;
+      text-decoration-style: double;
+      text-align: center;
+    }
+      }
+      
+  article{
+    .container-section{
+      .row{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        
+        .col{
+       padding: 10px;
+       background-color: #a2caf1;
+       margin: 10px;
+       border: black 2px solid;
+      }
+    }
   }
+  }
+}

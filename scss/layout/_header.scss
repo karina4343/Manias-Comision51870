@@ -19,7 +19,7 @@ header{
            height: 200px;
            width: 200px;
            border-radius: 200px;
-           border: 2px solid #f2f5f8;}
+           border: 2px solid #a2caf1 ;}
           }
         }
         
@@ -29,14 +29,21 @@ header{
             display: flex;
             gap: 2rem;
       li a {
+        border: 2px solid  #98c7f7 ;
+        background-color: #a2caf1;
+        padding: 10px;
+        border-radius: 5%;
            text-decoration: none;
            color: black; 
            font-weight: 700}
     }} 
     
-}
+        }
+
 nav{
       #toggle , label{
       display: none; }
     }
+
+
  

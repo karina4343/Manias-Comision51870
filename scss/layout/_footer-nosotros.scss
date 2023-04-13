@@ -1,7 +1,12 @@
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    margin-top: 400px;}
+    section{
+        .container-section{
+          .row{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            .col{
+           margin: 10px;
+          }}}
+}
+}

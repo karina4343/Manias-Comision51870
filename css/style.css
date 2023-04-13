@@ -19,13 +19,17 @@ header nav {
       height: 200px;
       width: 200px;
       border-radius: 200px;
-      border: 2px solid #f2f5f8; }
+      border: 2px solid #a2caf1; }
 
 header .menu ul {
   list-style: none;
   display: flex;
   gap: 2rem; }
   header .menu ul li a {
+    border: 2px solid  #98c7f7;
+    background-color: #a2caf1;
+    padding: 10px;
+    border-radius: 5%;
     text-decoration: none;
     color: black;
     font-weight: 700; }
@@ -59,7 +63,7 @@ main .card-text {
   text-align: center; }
 
 main .card-body {
-  background-color: #f7edcf; }
+  background-color: #a2caf1; }
 
 main .btn {
   background-color: black; }
@@ -69,9 +73,9 @@ main .botton a {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: #f0d9b6;
+  background-color: black;
   border: black;
-  color: black; }
+  color: white; }
 
 main .texto-inicio {
   display: flex;
@@ -80,6 +84,7 @@ main .texto-inicio {
   margin-left: 20px;
   margin-right: 20px; }
   main .texto-inicio h1 {
+    font-size: 30px;
     text-decoration: underline;
     text-decoration-style: double;
     text-align: center; }
@@ -97,6 +102,29 @@ main .texto {
     padding: 20px;
     color: black; }
 
+main .texto-gif {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px; }
+  main .texto-gif h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-align: center; }
+
+main article .container-section .row {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+  main article .container-section .row .col {
+    padding: 10px;
+    background-color: #a2caf1;
+    margin: 10px;
+    border: black 2px solid; }
+
 main .tarjetas-productos {
   display: flex;
   justify-content: center;
@@ -107,6 +135,7 @@ main .tarjetas-productos {
 main .categoria-h2-productos {
   display: flex;
   padding: 10px;
+  margin-left: 10px;
   margin-right: 1300px; }
   main .categoria-h2-productos h2 {
     font-size: 30px;
@@ -117,19 +146,19 @@ main .categoria-h2-productos {
 
 main .categorias-productos {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 10px;
-  border: 1px solid #000000;
-  margin: 5px; }
+  justify-content: flex-start;
+  flex-direction: row; }
   main .categorias-productos a {
     text-decoration: none;
+    border: #a2caf1 solid 2px;
+    font-weight: 500;
     padding: 10px;
+    margin: 20px;
     color: black; }
 
 main .container .row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: 10px;
   max-width: 100%; }
   main .container .row .card {
@@ -141,21 +170,27 @@ main .productos-1 h3 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-decoration: underline;
+  text-decoration-style: double; }
 
 main .higiene-2 h3 {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-decoration: underline;
+  text-decoration-style: double; }
 
 main .accesorios-3 h3 {
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-decoration: underline;
+  text-decoration-style: double; }
 
 main .tabla-de-talles {
   display: flex;
@@ -199,6 +234,11 @@ main .contactos {
   justify-content: flex-start;
   flex-direction: column;
   margin: 10px; }
+  main .contactos .container-section .row .col {
+    font-size: 30px; }
+    main .contactos .container-section .row .col .contactos-h3 h3 {
+      text-align: center;
+      font-size: 20px; }
 
 main .link-wp a {
   text-decoration: none;
@@ -208,20 +248,34 @@ main .link-wp a {
   text-decoration: underline;
   text-decoration-style: double; }
 
-footer .categoria-h2 {
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-  footer .categoria-h2 h2 {
-    font-size: 30px; }
+main .container {
+  display: block; }
+  main .container .formulario-contactos .form-control {
+    background-color: #a2caf1; }
+  main .container .formulario-contactos .boton-contactos {
+    margin-top: 10px; }
 
 footer {
+  /*.categoria-h2{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      h2{
+      font-size: 30px;}
+    }*/ }
+  footer section .container-section .row {
+    display: flex;
+    justify-content: center;
+    margin: 20px; }
+    footer section .container-section .row .col {
+      margin: 10px; }
+
+footer section .container-section .row {
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  margin-top: 400px; }
+  margin: 20px; }
+  footer section .container-section .row .col {
+    margin: 10px; }
 
 * {
   margin: 0;
@@ -229,9 +283,15 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-image: url("../imagenes/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-image: url("../imagenes/fondo 2.jpg"); }
+
+main .botton a {
+  border: 1px solid #000000;
+  margin: 10px;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  color: white; }
 
 /*inicio*/
 @media (max-width: 800px) {
@@ -269,7 +329,22 @@ body {
   nav #toggle:checked ~ .menu {
     height: 100%; } }
 
-/*@media (min-width: 320px) and (max-width:568px ) {
+@media (min-width: 320px) and (max-width: 799px) {
+  .tarjetas-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 100%; }
+    .container .card {
+      max-width: 100%;
+      height: 100%; }
+  /*
     nav{
       background-color: sienna;
       display: flex;
@@ -283,6 +358,4 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;}
-    
-  }*/
+    align-content: center;}*/ }

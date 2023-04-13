@@ -8,4 +8,7 @@
 @import "./layout/footer-nosotros";
 @import "./base/reset";
 @import "./components/boostrap";
-@import "./layout/media-queries"
+@import "./layout/media-queries";
+@import 'utilities/variables';
+@import "./utilities/function";
+@import "./utilities/mixins";
