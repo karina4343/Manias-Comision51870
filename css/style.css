@@ -255,20 +255,12 @@ main .container {
   main .container .formulario-contactos .boton-contactos {
     margin-top: 10px; }
 
-footer {
-  /*.categoria-h2{
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      h2{
-      font-size: 30px;}
-    }*/ }
-  footer section .container-section .row {
-    display: flex;
-    justify-content: center;
-    margin: 20px; }
-    footer section .container-section .row .col {
-      margin: 10px; }
+footer section .container-section .row {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+  footer section .container-section .row .col {
+    margin: 10px; }
 
 footer section .container-section .row {
   display: flex;
