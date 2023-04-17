@@ -60,7 +60,8 @@ main .card-title {
   text-decoration-style: double; }
 
 main .card-text {
-  text-align: center; }
+  text-align: center;
+  height: 115px; }
 
 main .card-body {
   background-color: #a2caf1; }

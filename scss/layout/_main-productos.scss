@@ -30,17 +30,24 @@ main{
       margin: 20px;
       color: black;
     }
-    
+  } 
+
+
+        
+ 
+
   
-  }
   .container .row {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     max-width: 100%;
+    
     .card{
         max-width: 100%;
-        height: 100%;}
+        height: 100%;
+        
+    }
   }
   .productos-1{
     h3{
