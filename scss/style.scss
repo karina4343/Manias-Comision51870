@@ -1,14 +1,13 @@
+@import "./base/reset";
 @import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/main-nosotros";
 @import "./layout/main-productos";
+@import "./components/boostrap";
 @import "./layout/main-guia-de-talles";
 @import "./layout/main-contactos";
 @import "./layout/footer";
 @import "./layout/footer-nosotros";
-@import "./base/reset";
-@import "./components/boostrap";
 @import "./layout/media-queries";
 @import 'utilities/variables';
-@import "./utilities/function";
 @import 'utilities/mixins';
