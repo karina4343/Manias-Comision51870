@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../imagenes/fondo 2.jpg"); }
+
 header .nav-wraper {
   width: 100%;
   margin: 0 auto;
@@ -144,7 +152,6 @@ main .categoria-h2-productos {
     text-decoration-style: double; }
 
 main .categorias-productos {
-  /*display: flex;*/
   justify-content: center;
   flex-direction: row;
   margin: 20px; }
@@ -182,6 +189,14 @@ main .accesorios-3 h3 {
   flex-wrap: wrap;
   text-decoration: underline;
   text-decoration-style: double; }
+
+main .botton a {
+  border: 1px solid #000000;
+  margin: 10px;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  color: white; }
 
 main .tabla-de-talles {
   display: flex;
@@ -259,22 +274,6 @@ footer section .container-section .row {
   margin: 20px; }
   footer section .container-section .row .col {
     margin: 10px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  background-image: url("../imagenes/fondo 2.jpg"); }
-
-main .botton a {
-  border: 1px solid #000000;
-  margin: 10px;
-  background-color: black;
-  text-decoration: none;
-  padding: 10px;
-  color: white; }
 
 /*inicio*/
 @media (max-width: 800px) {
